@@ -4,7 +4,7 @@ Built with Next.js, Tailwind CSS and a custom animated SVG logo.
 
 ## 🔗 Live Demo
 
-[![Open Live Project](https://img.shields.io/badge/Live%20Demo-Click%20Here-blueviolet?style=for-the-badge)](https://my-portfolio-taupe-xi-27.vercel.app/)
+[![Open Live Project](https://img.shields.io/badge/Live%20Demo-Click%20Here-blueviolet?style=for-the-badge)](https://my-portfolio-jub5.vercel.app/)
 
 ---
 
