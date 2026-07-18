@@ -1,5 +1,5 @@
 import p1 from '../public/images/a1.png';
-import p2 from '../public/images/p2.png';
+import b1 from '../public/images/b1.png';
 import p3 from '../public/images/p3.png';
 
 export const frontendImages = [p1];
@@ -25,9 +25,9 @@ export const frontendLinks = [
   "https://project5.vercel.app",
 ];
 
-export const ecommerceImages = [];
+export const ecommerceImages = [b1];
 export const ecommerceNames = [
-  "Project Name 1",
+  "E-Commerce (React)",
   "Project Name 2",
   "Project Name 3",
 ];
@@ -37,7 +37,7 @@ export const ecommerceCategories = [
   "Ecommerce Development",
 ];
 export const ecommerceLinks = [
-  "https://project1.vercel.app",
+  "https://e-commerce-website-react-eta.vercel.app/",
   "https://project2.vercel.app",
   "https://project3.vercel.app",
 ];
