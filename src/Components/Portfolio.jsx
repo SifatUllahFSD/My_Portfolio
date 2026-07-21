@@ -158,11 +158,11 @@ const Portfolio = () => {
                       />
                     </div>
 
-                    <div className='bg-[rgba(255,255,255,0.05)] p-3 flex justify-between rounded-xl mt-1'>
-                      <span className={`${lato.className} font-bold text-[#C6C6C6] text-[14px]`}>
+                    <div className='bg-[rgba(255,255,255,0.05)] p-3 flex flex-col md:flex-row md:justify-between md:items-center gap-1 rounded-xl mt-1'>
+                      <span className={`${lato.className} font-bold text-[#C6C6C6] text-[12px] md:text-[14px] leading-snug`}>
                         {projectNames[tabIndex][i]}
                       </span>
-                      <span className={`${lato.className} font-bold text-[#C6C6C6] text-[14px]`}>
+                      <span className={`${lato.className} font-bold text-[#8a8a8a] md:text-[#C6C6C6] text-[11px] md:text-[14px] leading-snug`}>
                         {projectCategories[tabIndex][i]}
                       </span>
                     </div>

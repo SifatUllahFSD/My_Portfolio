@@ -1,80 +1,41 @@
 import p1 from '../public/images/a1.png';
-import p2 from '../public/images/p2.png';
-import p3 from '../public/images/p3.png';
+import b1 from '../public/images/b1.png';
+import c1 from '../public/images/c1.png';
 
 export const frontendImages = [p1];
 export const frontendNames = [
   "Anniversary Website",
-  "Project Name 2",
-  "Project Name 3",
-  "Project Name 4",
-  "Project Name 5",
 ];
 export const frontendCategories = [
-  "Frontend Development",
-  "Frontend Development",
-  "Frontend Development",
-  "Frontend Development",
   "Frontend Development",
 ];
 export const frontendLinks = [
   "https://anniversary-website-demo.vercel.app",
-  "https://project2.vercel.app",
-  "https://project3.vercel.app",
-  "https://project4.vercel.app",
-  "https://project5.vercel.app",
 ];
 
-export const ecommerceImages = [];
+export const ecommerceImages = [b1,c1];
 export const ecommerceNames = [
-  "Project Name 1",
-  "Project Name 2",
-  "Project Name 3",
+  "E-Commerce (React)",
+  "E-Commerce (Next.js)",
 ];
 export const ecommerceCategories = [
   "Ecommerce Development",
   "Ecommerce Development",
-  "Ecommerce Development",
 ];
 export const ecommerceLinks = [
-  "https://project1.vercel.app",
-  "https://project2.vercel.app",
-  "https://project3.vercel.app",
+  "https://e-commerce-website-react-eta.vercel.app/",
+  "https://e-commerce-website-next-js-three.vercel.app/",
 ];
 
 export const webAppImages = [];
-export const webAppNames = [
-  "Project Name 1",
-  "Project Name 2",
-  "Project Name 3",
-  "Project Name 4",
-];
-export const webAppCategories = [
-  "Web Application",
-  "Web Application",
-  "Web Application",
-  "Web Application",
-];
-export const webAppLinks = [
-  "https://project1.vercel.app",
-  "https://project2.vercel.app",
-  "https://project3.vercel.app",
-  "https://project4.vercel.app",
-];
+export const webAppNames = [];
+export const webAppCategories = [];
+export const webAppLinks = [];
 
 export const dashboardImages = [];
-export const dashboardNames = [
-  "Project Name 1",
-  "Project Name 2",
-];
-export const dashboardCategories = [
-  "Dashboard Development",
-  "Dashboard Development",
-];
-export const dashboardLinks = [
-  "https://project1.vercel.app",
-  "https://project2.vercel.app",
-];
+export const dashboardNames = [];
+export const dashboardCategories = [];
+export const dashboardLinks = [];
 
 export const allImages = [...frontendImages, ...ecommerceImages, ...webAppImages, ...dashboardImages];
 export const allNames = [...frontendNames, ...ecommerceNames, ...webAppNames, ...dashboardNames];
